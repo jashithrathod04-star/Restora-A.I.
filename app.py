@@ -1260,7 +1260,7 @@ if st.session_state.page == "dashboard":
             
                
     with tab7:
-        st.markdown("## 📚 Compulsory Prompt Design Requirement")
+        st.markdown("## 📚 Prompt Design ")
        
     
         prompt_library = {
