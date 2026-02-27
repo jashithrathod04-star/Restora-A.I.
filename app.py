@@ -293,7 +293,7 @@ if st.session_state.page == "landing":
     
     <div class="content">
     
-        <div class="title">Restora A.I</div>
+        <div class="title">HeritaTech Solutions</div>
         <div class="subtitle">AI-Powered Cultural Heritage Restoration Assistant</div>
     
         <div class="cards">
