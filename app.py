@@ -1261,10 +1261,7 @@ if st.session_state.page == "dashboard":
                
     with tab7:
         st.markdown("## 📚 Compulsory Prompt Design Requirement")
-        st.markdown("""
-    Students must create a total of **at least 10 structured prompts/features**.
-    Below are 15 diverse, culturally grounded, and innovation-driven prompts implemented in ArtRestorer AI.
-    """)
+       
     
         prompt_library = {
     
@@ -1360,39 +1357,7 @@ if st.session_state.page == "dashboard":
     
         st.code(prompt_library[selected_prompt], language="markdown")
     
-        st.markdown("---")
-        st.markdown("### ✅ Rubric Alignment: Prompt Engineering, Feature Design & Creativity (15 Marks)")
-    
-        st.markdown("""
-    ✔ Covers multiple cultures (Indian, Mughal, Mayan, Persian, Greek, Japanese, European)
-    
-    ✔ Includes varied art forms:
-    - Paintings
-    - Sculptures
-    - Manuscripts
-    - Pottery
-    - Murals
-    - Scrolls
-    - Folk Art
-    
-    ✔ Explores diverse damage types:
-    - Water stains
-    - Sun fading
-    - Mold
-    - Fire damage
-    - Erosion
-    - Structural cracks
-    
-    ✔ Incorporates functional goals:
-    - Symbolic reconstruction
-    - Historical translation
-    - Storytelling enhancement
-    - Cultural sensitivity
-    - Reversible conservation
-    
-    All prompts are creative, diverse, user-focused, and demonstrate meaningful innovation.
-    """)
-    
+        
         st.success("🎯 Compulsory 10+ Prompt Requirement Successfully Implemented")           
 
 
